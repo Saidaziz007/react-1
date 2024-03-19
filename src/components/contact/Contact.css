@@ -1,0 +1,108 @@
+.contacts {
+  background-color: rgba(247, 249, 252, 1);
+}
+.contact {
+  padding: 100px 0px;
+}
+.contact-all {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.contact-left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 15px 15px 15px;
+  color: #211f54;
+}
+.contact-left h1 {
+  font-weight: 700;
+  padding-bottom: 20px;
+  font-size: 35px;
+}
+.contact-left p {
+  max-width: 300px;
+  padding-bottom: 10px;
+  font-weight: 400;
+}
+.hero-num p {
+  padding-bottom: 0px;
+}
+.contact-left hr {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.contact-left h2 {
+  font-weight: 700;
+  padding-bottom: 5px;
+}
+.contact-left button {
+  width: 200px;
+  padding: 12px 20px;
+  border: none;
+  color: #211f54;
+  font-size: 15px;
+  background-color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 25px;
+  box-shadow: 0 0 5px 1px grey;
+}
+
+.contact-input {
+  display: flex;
+  flex-direction: column;
+  color: #211f54;
+}
+
+.contact-input label {
+  padding-bottom: 10px;
+}
+
+.contact-input input {
+  padding: 15px;
+  border: none;
+  box-shadow: 0 0 5px 1px grey;
+  border-radius: 10px;
+}
+
+.contact-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  padding-bottom: 20px;
+}
+
+.contact-text {
+  display: flex;
+  flex-direction: column;
+  color: #211f54;
+  padding-bottom: 30px;
+}
+
+.contact-text textarea {
+  width: 100%;
+  border: none;
+  box-shadow: 0 0 5px 1px grey;
+  border-radius: 10px;
+}
+
+.contact-text label {
+  padding-bottom: 10px;
+}
+
+.contact-right button {
+  padding: 15px 25px;
+  border: none;
+  background-color: rgba(0, 117, 255, 1);
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.contact-right {
+  background-color: white;
+  border-radius: 15px;
+  padding: 80px 50px;
+}

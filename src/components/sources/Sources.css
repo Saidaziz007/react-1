@@ -1,0 +1,83 @@
+.sources {
+  padding-top: 100px;
+  padding-bottom: 200px;
+}
+
+.sources-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 40px;
+}
+
+.sources-top h1 {
+  color: #211f54;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.sources-btn {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.sources-card {
+  position: relative;
+}
+
+.sources-card img {
+  width: 100%;
+}
+
+.sources-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+}
+
+.sources-info {
+  position: absolute;
+  background-color: white;
+  top: 250px;
+  width: 90%;
+  left: 30px;
+  padding: 35px 25px;
+  color: #211f54;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 15px;
+  border: 1px solid rgb(205, 205, 205);
+}
+
+.sources-info h1 {
+  padding-bottom: 10px;
+  max-width: 400px;
+  font-weight: 700;
+}
+
+.sources-info p {
+  font-weight: 400;
+  text-align: center;
+  max-width: 400px;
+  padding-bottom: 20px;
+}
+
+.sources-info1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 200px;
+}
+
+.sources-info1 h3 {
+  font-weight: 700;
+}
+
+.sources-info1 div {
+  padding: 20px;
+  background-color: blue;
+}

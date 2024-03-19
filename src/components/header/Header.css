@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0px;
+  background-color: white;
+}
+
+.nav-all {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  list-style: none;
+}
+
+.nav-item {
+  cursor: pointer;
+}
+
+.nav-btn {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-btn button {
+  padding: 13px 25px;
+  font-size: 16px;
+  background-color: #0075ff;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
